@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/location_details_container"
+    style="@style/HorizontalLinearLayout">
+
+    <ImageView
+        android:id="@+id/location_image"
+        style="@style/LocationImage"
+        android:contentDescription="@string/location_image" />
+
+    <LinearLayout
+        style="@style/VerticalLinearLayout"
+        android:layout_marginLeft="@dimen/layout_margin_default"
+        android:layout_marginRight="@dimen/layout_margin_default">
+
+        <TextView
+            android:id="@+id/location_name"
+            style="@style/LocationNameText"
+            tools:text="@string/location_name" />
+
+        <TextView
+            android:id="@+id/location_description"
+            style="@style/LocationDetailsText"
+            tools:text="@string/location_description" />
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayout"
+            android:layout_marginTop="@dimen/layout_margin_default">
+
+            <TextView
+                style="@style/LocationLabelText"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:text="@string/address" />
+
+            <TextView
+                android:id="@+id/location_address"
+                style="@style/LocationDetailsText"
+                android:autoLink="map"
+                tools:text="@string/location_address" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayout"
+            android:layout_marginBottom="@dimen/layout_margin_default">
+
+            <TextView
+                style="@style/LocationLabelText"
+                android:layout_marginEnd="@dimen/text_align_space"
+                android:layout_marginRight="@dimen/text_align_space"
+                android:text="@string/hours" />
+
+            <TextView
+                android:id="@+id/location_hours"
+                style="@style/LocationDetailsText"
+                tools:text="@string/location_hours" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

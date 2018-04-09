@@ -1,3 +1,238 @@
 <resources>
-    <string name="app_name">TourGuideApp</string>
+    <string name="app_name">Indore City Guide</string>
+
+    <!-- Fragment names / Titles to be displayed in the AppBar -->
+    <string name="about_city_fragment">About Indore</string>
+    <string name="historic_places_fragment">Historic Places</string>
+    <string name="parks_fragment">Parks</string>
+    <string name="restaurants_fragment">Restaurants</string>
+    <string name="night_clubs_fragment">Night Clubs</string>
+
+    <!-- Location/Place details string in views -->
+    <string name="address">Address:</string>
+    <string name="hours">Hours:</string>
+    <string name="phone_number">Phone:</string>
+    <string name="location_image">Location Image</string>
+    <string name="location_name">Location Name</string>
+    <string name="location_description">Location Description</string>
+    <string name="location_address">Location Address</string>
+    <string name="location_hours">Location Open Hours</string>
+    <string name="place_name">Place Name</string>
+    <string name="place_address">Place Address</string>
+    <string name="place_phone_number">Place Phone Number</string>
+    <string name="place_hours">Place Business Hours</string>
+
+    <!-- Indore City Details-->
+    <string name="indore_city_details">Indore is a city in the west-central India. It is the most populous and the largest city in the
+        Indian state of Madhya Pradesh. It’s known for the 7-story Rajwada Palace and the Lal Baag Palace, which dates back to
+        Indore’s 19th-century Holkar dynasty. The Holkar rulers are honored by a cluster of tombs and cenotaphs at Chhatri Baag.
+        The night market Sarafa Bazar sells street food. East is the Indo-Gothic Gandhi Hall and clock tower.
+    </string>
+    <string name="indore_city_image">Indore City Image</string>
+
+    <!-- Historic Places Details -->
+    <!-- 1. Rajwada -->
+    <string name="rajwada_name">Rajwada</string>
+    <string name="rajwada_description">Rajwada is a historical palace in Indore city.
+        It was built by the Holkars of the Maratha Empire about two centuries ago</string>
+    <string name="rajwada_address">Rajwada Circle, Rajwada, Near Holker Cloth Market, Indore, Madhya Pradesh 452002, India</string>
+    <string name="rajwada_hours">Tue-Sun: 10AM-5PM\nMon: Closed</string>
+
+    <!-- 2. Lal Bagh Palace -->
+    <string name="lal_bagh_name">Lal Bagh Palace</string>
+    <string name="lal_bagh_description">Lavish 19th-century palace of the Holkar dynasty, in a mix of baroque, rococo and
+        neoclassical styles.</string>
+    <string name="lal_bagh_address">Nai Duniya, Revenue Colony, Indira nagar, Indore, Madhya Pradesh 452007, India</string>
+    <string name="lal_bagh_hours">Tue-Sun: 10AM-5PM\nMon: Closed</string>
+
+    <!-- 3. Indore Museum -->
+    <string name="museum_name">Indore Museum</string>
+    <string name="museum_description">It was established in 1929.The artifacts exhibited in the museum range from
+        the pre-historic to the modern era.</string>
+    <string name="museum_address">Near GPO Square, Navlakha, Indore, Madhya Pradesh 452001, India</string>
+    <string name="museum_hours">Tue-Sun: 10AM-5PM\nMon: Closed</string>
+
+    <!-- 4. Kamla Nehru Prani Sangrahalay (Zoo) -->
+    <string name="zoo_name">Kamla Nehru Prani Sangrahalay</string>
+    <string name="zoo_description">Also known as Indore Zoo. This is the largest and one of the oldest zoological parks
+        of the Madhya Pradesh state, spread over an area of 4000 square meters</string>
+    <string name="zoo_address">Agra Bombay Road, Navlakha, Indore, Madhya Pradesh 452001, India</string>
+    <string name="zoo_hours">Tue-Sun: 9AM-6PM\nMon: Closed</string>
+
+    <!-- 5. Khajrana Ganesh Temple -->
+    <string name="kgt_name">Khajrana Ganesh Temple</string>
+    <string name="kgt_description">Khajrana Ganesh Temple is a pilgrimage center in Indore, dedicated to Lord Ganpanti.
+        Built during reign of Holkar dynasty.</string>
+    <string name="kgt_address">Khajrana Rd, Ganeshpuri Colony, Khajrana, Indore, Madhya Pradesh 452016, India</string>
+    <string name="kgt_hours">Mon-Sun: 10AM-10PM</string>
+
+    <!-- 6. Annapurna Temple -->
+    <string name="at_name">Annapurna Temple</string>
+    <string name="at_description">Prominent temple dedicated to the Hindu goddess of food featuring an ornate gate
+        and elephant statues.</string>
+    <string name="at_address">Kranti Kriplani Nagar, Indore, Madhya Pradesh 452009, India</string>
+    <string name="at_hours">Mon-Sun: 10AM-10PM</string>
+
+    <!-- 7. Krishna Pura Chhatri -->
+    <string name="kpc_name">Krishna Pura Chhatri</string>
+    <string name="kpc_description">Cenotaphs from the late 1800s memorializing Holkar rulers with wall carvings and statues.</string>
+    <string name="kpc_address">Mahatma Gandhi Rd, Rajwada, Maharaja Tukoji Rao Holker Cloth Market, Indore,
+        Madhya Pradesh 452007, India</string>
+    <string name="kpc_hours">Mon-Sat: 9AM-5PM\nSun: Closed</string>
+
+    <!-- 8. Gandhi Hall -->
+    <string name="hall_name">Gandhi Hall</string>
+    <string name="hall_description">Art and culture exhibitions in a 1904 hall with elaborate Indo-Gothic windows,
+        minarets and domes.</string>
+    <string name="hall_address">Indore GPO, Indore, Madhya Pradesh 452007, India</string>
+    <string name="hall_hours">Mon-Sun: 10AM-6PM</string>
+
+    <!-- Parks Details -->
+    <!-- 1. Amuza Adventure Park -->
+    <string name="amuza_name">Amuza Adventure Park</string>
+    <string name="amuza_address">Plot No. 14, 3rd Floor, Shriram House Building, Ring Road, Amitesh Nagar, Near Krishi Mandi,
+        Indore, Madhya Pradesh 452014, India</string>
+    <string name="amuza_hours">Mon-Sun: 10AM-7PM</string>
+
+    <!-- 2. Mayank Blue Water Park -->
+    <string name="mbw_name">Mayank Blue Water Park</string>
+    <string name="mbw_address">Bengali Square, Indore Bypass Road, Indore, Madhya Pradesh 452016, India</string>
+    <string name="mbw_hours">Mon-Sun: 11AM-7PM</string>
+
+    <!-- 3. Agrawal Appu Ghar -->
+    <string name="aag_name">Agrawal Appu Ghar</string>
+    <string name="aag_address">Hotel Grand Bhagwati,Infront of Omax City-1,Bypass, Mayakhedi, Indore,
+        Madhya Pradesh 452011, India</string>
+    <string name="aag_hours">Mon-Sun: 12PM-10PM</string>
+
+    <!-- 4. Crescent Water Park -->
+    <string name="cw_name">Crescent Water Park</string>
+    <string name="cw_address">Gram Jamniya, Near Narmada Kshipra Devguradia, Khurd Kapmle Road, Indore,
+        Madhya Pradesh 452016, India</string>
+    <string name="cw_hours">Mon-Sun: 10AM-6PM</string>
+
+    <!-- 5. Shell City Water Park -->
+    <string name="scw_name">Shell City Water Park</string>
+    <string name="scw_address">Khandwa Road, Indore, Madhya Pradesh 452020, India</string>
+    <string name="scw_hours">Mon-Sun: 10AM-8:30PM</string>
+
+    <!-- 6. Nakhrali Dhani Water Park -->
+    <string name="ndw_name">Nakhrali Dhani Water Park</string>
+    <string name="ndw_address">Vijay Nagar Main Rd, Scheme 54 PU4, Indore, Madhya Pradesh 452011, India</string>
+    <string name="ndw_hours">Mon-Sun: 9AM-10PM</string>
+
+    <!-- 7. Safari Adventure Park -->
+    <string name="sap_name">Safari Adventure Park</string>
+    <string name="sap_address">9 MSJ Estate, Lasudia Parmar, Dakachya, Indore, Madhya Pradesh 453771, India</string>
+    <string name="sap_hours">Mon-Sun: 9AM-10PM</string>
+
+    <!-- 8. Chokhi Dhani -->
+    <string name="cd_name">Chokhi Dhani</string>
+    <string name="cd_address">9, Mile, Datodafatha, Khandwa Road, Bicholi Mardana, Indore Bypass Road, Indore 452001, India</string>
+    <string name="cd_hours">Mon-Sun: 9AM-10PM</string>
+
+    <!-- Restaurants Details-->
+    <!-- 1. Shreemaya Celebration -->
+    <string name="shreemaya_name">Shreemaya Celebration</string>
+    <string name="shreemaya_address">B-2, Agra Bombay Road, Near Press Complex, Indore, Madhya Pradesh 452011, India</string>
+    <string name="shreemaya_phone">+91(731)257-7333</string>
+    <string name="shreemaya_hours">Mon-Sun: 12PM-3:30PM, 7PM-11PM</string>
+
+    <!-- 2. Kebabsville -->
+    <string name="kebabsville_name">Kebabsville</string>
+    <string name="kebabsville_address">Sayaji Hotel, H 1, Ware House Rd, Scheme No.54, Vijay Nagar, Indore,
+        Madhya Pradesh 452010, India</string>
+    <string name="kebabsville_phone"> +91(731)330-1159</string>
+    <string name="kebabsville_hours">Mon-Sun: 7PM-11:30PM</string>
+
+    <!-- 3. Shree Chotiwala Restaurant -->
+    <string name="chotiwala_name">Shree Chotiwala Restaurant</string>
+    <string name="chotiwala_address">8 B Raunak Plaza, Opposite Nath Mandir, South Tukoganj, Indore, Madhya Pradesh 452001, India</string>
+    <string name="chotiwala_phone">+91(731)252-8585</string>
+    <string name="chotiwala_hours">Mon-Sun: 11AM-12AM</string>
+
+    <!-- 4. Johny Hot Dog -->
+    <string name="johny_name">Johny Hot Dog</string>
+    <string name="johny_address">shop no 51-52, 56 Dukan St, Indore, Madhya Pradesh 452001, India</string>
+    <string name="johny_phone">+91(997)777-3888</string>
+    <string name="johny_hours">Mon-Sun: 12PM-11PM</string>
+
+    <!-- 5. Alav Restaurant -->
+    <string name="alav_name">Alav Restaurant</string>
+    <string name="alav_address">9/1, Anmol Sagar Darshan Building, Curewell Hospital Road, New Palasia, Indore,
+        Madhya Pradesh 452001, India</string>
+    <string name="alav_phone">+91(731)404-0040</string>
+    <string name="alav_hours">Mon-Sun: 11AM-12AM</string>
+
+    <!-- 6. Sayaji Hotel indore -->
+    <string name="sayaji_name">Sayaji Hotel indore</string>
+    <string name="sayaji_address">H/1, Scheme No.54, Vijay Nagar, Indore, Madhya Pradesh 452010, India</string>
+    <string name="sayaji_phone">+91(731)400-6666</string>
+    <string name="sayaji_hours">Mon-Sun: 12PM-11PM</string>
+
+    <!-- 7. Oye Pappe -->
+    <string name="oye_name">Oye Pappe</string>
+    <string name="oye_address">13, Agra Bombay Rd, Ahilya Puri, Indrapuri Colony, Vishnu Puri Colony, Indore,
+        Madhya Pradesh 452014, India</string>
+    <string name="oye_phone">+91(982)645-9999</string>
+    <string name="oye_hours">Tue-Sun: 1PM-11PM\nMon: Closed</string>
+
+    <!-- 8. Gurukripa Restaurant -->
+    <string name="guru_name">Gurukripa Restaurant</string>
+    <string name="guru_address">AH47, MITM College, Pigdambar, Mhow, Rau, Indore, Madhya Pradesh 453441, India</string>
+    <string name="guru_phone">+91(997)727-3764</string>
+    <string name="guru_hours">Mon-Sun: 6AM-12AM</string>
+
+    <!-- Night Club Details-->
+    <!-- 1. Ego Night Club -->
+    <string name="ego_name">Ego Night Club</string>
+    <string name="ego_address">10th Floor, 1001, Shekhar Central, AB Road, Manorama Ganj, Indore, Madhya Pradesh 452018, India</string>
+    <string name="ego_phone">+91(731)422-2801</string>
+    <string name="ego_hours">Wed, Sat-Sun: 7PM-12:30AM\nMon-Tue,Thus-Fri: Closed</string>
+
+    <!-- 2. Calypso Club and Lounge -->
+    <string name="calypso_name">Calypso Club and Lounge</string>
+    <string name="calypso_address">4th Floor, C-21 Mall, A.B. Road, Indore, Madhya Pradesh 452010, India</string>
+    <string name="calypso_phone">+91(900)977-0200</string>
+    <string name="calypso_hours">Mon-Sun: 12PM-12AM</string>
+
+    <!-- 3. Temperature Disc and Lounge -->
+    <string name="temp_name">Temperature Disc and Lounge</string>
+    <string name="temp_address">Floor no. 5 ,apollo square, race course road, Indore, Madhya Pradesh 462001, India</string>
+    <string name="temp_phone">+91(731)406-6503</string>
+    <string name="temp_hours">Mon-Sun: 11AM-12AM</string>
+
+    <!-- 4. Silver Springs Club House -->
+    <string name="silver_name">Silver Springs Club House</string>
+    <string name="silver_address">Silver Springs Phase-1, AB Bypass Road,, Indore Bypass Rd, Indore, Madhya Pradesh, India</string>
+    <string name="silver_phone">+91(731)493-7331</string>
+    <string name="silver_hours">Mon-Sun: 8AM-12PM</string>
+
+    <!-- 5. Chazers Pub -->
+    <string name="chazers_name">Chazers Pub</string>
+    <string name="chazers_address">Corporate House, 208, 169, Rabindranath Tagore Marg, Near Central Mall, Opposite Ravindra Natya,
+        Chhoti Gwaltoli, Indore, Madhya Pradesh 452001, India</string>
+    <string name="chazers_phone">+91(958)495-3333</string>
+    <string name="chazers_hours">Mon-Sun: 12AM-11:59PM</string>
+
+    <!-- 6. The Legend Club -->
+    <string name="legend_name">The Legend Club</string>
+    <string name="legend_address">1427, Kanadia Main Rd, Alok Nagar, Indore, Madhya Pradesh 452016, India</string>
+    <string name="legend_phone">+91(998)152-2291</string>
+    <string name="legend_hours">Mon-Sun: 12PM-12AM</string>
+
+    <!-- 7. Mustang Lounge -->
+    <string name="mustang_name">Mustang Lounge</string>
+    <string name="mustang_address">Khasra No. 19/2, Village Khajrana, MR 10 Road, Near Radison Hotel, Indore,
+        Madhya Pradesh 452001, India</string>
+    <string name="mustang_phone">+91(964)482-1000</string>
+    <string name="mustang_hours">Mon-Sun: 12PM-12AM</string>
+
+    <!-- 8. Woodstock Lounge -->
+    <string name="woodstock_name">Woodstock Lounge</string>
+    <string name="woodstock_address">LG1 BCM Heights,BCM Backward Connectivity Road, Near Bombay Hospital, Vijay Nagar, Indore,
+        Madhya Pradesh 452010, India</string>
+    <string name="woodstock_phone">+91(940)710-0009</string>
+    <string name="woodstock_hours">Mon-Sun: 12PM-1AM</string>
+
 </resources>
